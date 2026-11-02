@@ -1,17 +1,53 @@
-Go back to your repository.
+name: Deploy to GitHub Pages
 
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
-Click the Actions tab.
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
 
-Look for a workflow named something like Deploy to GitHub Pages.
+      - name: Install dependencies
+        run: npm ci
 
+      - name: Build website
+        run: npm run build
+        env:
+          BASE_PATH: /travel-to-russia-abroad/
 
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
 
-Click the newest run.
-
-
-
-Wait for it to finish.
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
+      
