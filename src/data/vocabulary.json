@@ -1,0 +1,1451 @@
+[
+  {
+    "id": "ru-000001",
+    "ru": "привет",
+    "en": [
+      "hello"
+    ],
+    "partOfSpeech": "interjection",
+    "level": "A1",
+    "topic": "greetings",
+    "examples": []
+  },
+  {
+    "id": "ru-000002",
+    "ru": "здравствуйте",
+    "en": [
+      "hello",
+      "good day"
+    ],
+    "partOfSpeech": "interjection",
+    "level": "A1",
+    "topic": "greetings",
+    "examples": []
+  },
+  {
+    "id": "ru-000003",
+    "ru": "пока",
+    "en": [
+      "bye",
+      "see you"
+    ],
+    "partOfSpeech": "interjection",
+    "level": "A1",
+    "topic": "greetings",
+    "examples": []
+  },
+  {
+    "id": "ru-000004",
+    "ru": "спасибо",
+    "en": [
+      "thank you"
+    ],
+    "partOfSpeech": "interjection",
+    "level": "A1",
+    "topic": "greetings",
+    "examples": []
+  },
+  {
+    "id": "ru-000005",
+    "ru": "пожалуйста",
+    "en": [
+      "please",
+      "you're welcome"
+    ],
+    "partOfSpeech": "adverb",
+    "level": "A1",
+    "topic": "greetings",
+    "examples": []
+  },
+  {
+    "id": "ru-000006",
+    "ru": "да",
+    "en": [
+      "yes"
+    ],
+    "partOfSpeech": "adverb",
+    "level": "A1",
+    "topic": "basics",
+    "examples": []
+  },
+  {
+    "id": "ru-000007",
+    "ru": "нет",
+    "en": [
+      "no"
+    ],
+    "partOfSpeech": "adverb",
+    "level": "A1",
+    "topic": "basics",
+    "examples": []
+  },
+  {
+    "id": "ru-000008",
+    "ru": "извините",
+    "en": [
+      "excuse me",
+      "sorry"
+    ],
+    "partOfSpeech": "verb",
+    "level": "A1",
+    "topic": "greetings",
+    "examples": []
+  },
+  {
+    "id": "ru-000009",
+    "ru": "меня зовут",
+    "en": [
+      "my name is"
+    ],
+    "partOfSpeech": "phrase",
+    "level": "A1",
+    "topic": "greetings",
+    "examples": []
+  },
+  {
+    "id": "ru-000010",
+    "ru": "как дела?",
+    "en": [
+      "how are you?"
+    ],
+    "partOfSpeech": "phrase",
+    "level": "A1",
+    "topic": "greetings",
+    "examples": []
+  },
+  {
+    "id": "ru-000011",
+    "ru": "я",
+    "en": [
+      "I"
+    ],
+    "partOfSpeech": "pronoun",
+    "level": "A1",
+    "topic": "basics",
+    "examples": []
+  },
+  {
+    "id": "ru-000012",
+    "ru": "ты",
+    "en": [
+      "you (informal singular)"
+    ],
+    "partOfSpeech": "pronoun",
+    "level": "A1",
+    "topic": "basics",
+    "examples": []
+  },
+  {
+    "id": "ru-000013",
+    "ru": "вы",
+    "en": [
+      "you (formal/plural)"
+    ],
+    "partOfSpeech": "pronoun",
+    "level": "A1",
+    "topic": "basics",
+    "examples": []
+  },
+  {
+    "id": "ru-000014",
+    "ru": "он",
+    "en": [
+      "he"
+    ],
+    "partOfSpeech": "pronoun",
+    "level": "A1",
+    "topic": "basics",
+    "examples": []
+  },
+  {
+    "id": "ru-000015",
+    "ru": "она",
+    "en": [
+      "she"
+    ],
+    "partOfSpeech": "pronoun",
+    "level": "A1",
+    "topic": "basics",
+    "examples": []
+  },
+  {
+    "id": "ru-000016",
+    "ru": "мы",
+    "en": [
+      "we"
+    ],
+    "partOfSpeech": "pronoun",
+    "level": "A1",
+    "topic": "basics",
+    "examples": []
+  },
+  {
+    "id": "ru-000017",
+    "ru": "они",
+    "en": [
+      "they"
+    ],
+    "partOfSpeech": "pronoun",
+    "level": "A1",
+    "topic": "basics",
+    "examples": []
+  },
+  {
+    "id": "ru-000018",
+    "ru": "это",
+    "en": [
+      "this",
+      "it is"
+    ],
+    "partOfSpeech": "pronoun",
+    "level": "A1",
+    "topic": "basics",
+    "examples": []
+  },
+  {
+    "id": "ru-000019",
+    "ru": "кто",
+    "en": [
+      "who"
+    ],
+    "partOfSpeech": "pronoun",
+    "level": "A1",
+    "topic": "basics",
+    "examples": []
+  },
+  {
+    "id": "ru-000020",
+    "ru": "что",
+    "en": [
+      "what"
+    ],
+    "partOfSpeech": "pronoun",
+    "level": "A1",
+    "topic": "basics",
+    "examples": []
+  },
+  {
+    "id": "ru-000021",
+    "ru": "дом",
+    "en": [
+      "house",
+      "home"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A1",
+    "topic": "home",
+    "examples": []
+  },
+  {
+    "id": "ru-000022",
+    "ru": "квартира",
+    "en": [
+      "apartment"
+    ],
+    "partOfSpeech": "noun feminine",
+    "level": "A1",
+    "topic": "home",
+    "examples": []
+  },
+  {
+    "id": "ru-000023",
+    "ru": "комната",
+    "en": [
+      "room"
+    ],
+    "partOfSpeech": "noun feminine",
+    "level": "A1",
+    "topic": "home",
+    "examples": []
+  },
+  {
+    "id": "ru-000024",
+    "ru": "дверь",
+    "en": [
+      "door"
+    ],
+    "partOfSpeech": "noun feminine",
+    "level": "A1",
+    "topic": "home",
+    "examples": []
+  },
+  {
+    "id": "ru-000025",
+    "ru": "окно",
+    "en": [
+      "window"
+    ],
+    "partOfSpeech": "noun neuter",
+    "level": "A1",
+    "topic": "home",
+    "examples": []
+  },
+  {
+    "id": "ru-000026",
+    "ru": "стол",
+    "en": [
+      "table",
+      "desk"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A1",
+    "topic": "home",
+    "examples": []
+  },
+  {
+    "id": "ru-000027",
+    "ru": "стул",
+    "en": [
+      "chair"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A1",
+    "topic": "home",
+    "examples": []
+  },
+  {
+    "id": "ru-000028",
+    "ru": "кровать",
+    "en": [
+      "bed"
+    ],
+    "partOfSpeech": "noun feminine",
+    "level": "A1",
+    "topic": "home",
+    "examples": []
+  },
+  {
+    "id": "ru-000029",
+    "ru": "кухня",
+    "en": [
+      "kitchen"
+    ],
+    "partOfSpeech": "noun feminine",
+    "level": "A1",
+    "topic": "home",
+    "examples": []
+  },
+  {
+    "id": "ru-000030",
+    "ru": "вода",
+    "en": [
+      "water"
+    ],
+    "partOfSpeech": "noun feminine",
+    "level": "A1",
+    "topic": "food",
+    "examples": []
+  },
+  {
+    "id": "ru-000031",
+    "ru": "хлеб",
+    "en": [
+      "bread"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A1",
+    "topic": "food",
+    "examples": []
+  },
+  {
+    "id": "ru-000032",
+    "ru": "молоко",
+    "en": [
+      "milk"
+    ],
+    "partOfSpeech": "noun neuter",
+    "level": "A1",
+    "topic": "food",
+    "examples": []
+  },
+  {
+    "id": "ru-000033",
+    "ru": "кофе",
+    "en": [
+      "coffee"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A1",
+    "topic": "food",
+    "examples": []
+  },
+  {
+    "id": "ru-000034",
+    "ru": "чай",
+    "en": [
+      "tea"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A1",
+    "topic": "food",
+    "examples": []
+  },
+  {
+    "id": "ru-000035",
+    "ru": "яблоко",
+    "en": [
+      "apple"
+    ],
+    "partOfSpeech": "noun neuter",
+    "level": "A1",
+    "topic": "food",
+    "examples": []
+  },
+  {
+    "id": "ru-000036",
+    "ru": "мясо",
+    "en": [
+      "meat"
+    ],
+    "partOfSpeech": "noun neuter",
+    "level": "A1",
+    "topic": "food",
+    "examples": []
+  },
+  {
+    "id": "ru-000037",
+    "ru": "рыба",
+    "en": [
+      "fish"
+    ],
+    "partOfSpeech": "noun feminine",
+    "level": "A1",
+    "topic": "food",
+    "examples": []
+  },
+  {
+    "id": "ru-000038",
+    "ru": "соль",
+    "en": [
+      "salt"
+    ],
+    "partOfSpeech": "noun feminine",
+    "level": "A1",
+    "topic": "food",
+    "examples": []
+  },
+  {
+    "id": "ru-000039",
+    "ru": "сахар",
+    "en": [
+      "sugar"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A1",
+    "topic": "food",
+    "examples": []
+  },
+  {
+    "id": "ru-000040",
+    "ru": "счёт",
+    "en": [
+      "bill",
+      "account"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A1",
+    "topic": "food",
+    "examples": []
+  },
+  {
+    "id": "ru-000041",
+    "ru": "человек",
+    "en": [
+      "person",
+      "human"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A1",
+    "topic": "people",
+    "examples": []
+  },
+  {
+    "id": "ru-000042",
+    "ru": "семья",
+    "en": [
+      "family"
+    ],
+    "partOfSpeech": "noun feminine",
+    "level": "A1",
+    "topic": "people",
+    "examples": []
+  },
+  {
+    "id": "ru-000043",
+    "ru": "мама",
+    "en": [
+      "mom"
+    ],
+    "partOfSpeech": "noun feminine",
+    "level": "A1",
+    "topic": "people",
+    "examples": []
+  },
+  {
+    "id": "ru-000044",
+    "ru": "папа",
+    "en": [
+      "dad"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A1",
+    "topic": "people",
+    "examples": []
+  },
+  {
+    "id": "ru-000045",
+    "ru": "друг",
+    "en": [
+      "friend (male)"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A1",
+    "topic": "people",
+    "examples": []
+  },
+  {
+    "id": "ru-000046",
+    "ru": "подруга",
+    "en": [
+      "friend (female)"
+    ],
+    "partOfSpeech": "noun feminine",
+    "level": "A1",
+    "topic": "people",
+    "examples": []
+  },
+  {
+    "id": "ru-000047",
+    "ru": "ребёнок",
+    "en": [
+      "child"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A1",
+    "topic": "people",
+    "examples": []
+  },
+  {
+    "id": "ru-000048",
+    "ru": "мужчина",
+    "en": [
+      "man"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A1",
+    "topic": "people",
+    "examples": []
+  },
+  {
+    "id": "ru-000049",
+    "ru": "женщина",
+    "en": [
+      "woman"
+    ],
+    "partOfSpeech": "noun feminine",
+    "level": "A1",
+    "topic": "people",
+    "examples": []
+  },
+  {
+    "id": "ru-000050",
+    "ru": "имя",
+    "en": [
+      "name"
+    ],
+    "partOfSpeech": "noun neuter",
+    "level": "A1",
+    "topic": "people",
+    "examples": []
+  },
+  {
+    "id": "ru-000051",
+    "ru": "город",
+    "en": [
+      "city"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A1",
+    "topic": "travel",
+    "examples": []
+  },
+  {
+    "id": "ru-000052",
+    "ru": "страна",
+    "en": [
+      "country"
+    ],
+    "partOfSpeech": "noun feminine",
+    "level": "A1",
+    "topic": "travel",
+    "examples": []
+  },
+  {
+    "id": "ru-000053",
+    "ru": "Россия",
+    "en": [
+      "Russia"
+    ],
+    "partOfSpeech": "proper noun",
+    "level": "A1",
+    "topic": "travel",
+    "examples": []
+  },
+  {
+    "id": "ru-000054",
+    "ru": "Москва",
+    "en": [
+      "Moscow"
+    ],
+    "partOfSpeech": "proper noun",
+    "level": "A1",
+    "topic": "travel",
+    "examples": []
+  },
+  {
+    "id": "ru-000055",
+    "ru": "улица",
+    "en": [
+      "street"
+    ],
+    "partOfSpeech": "noun feminine",
+    "level": "A1",
+    "topic": "travel",
+    "examples": []
+  },
+  {
+    "id": "ru-000056",
+    "ru": "магазин",
+    "en": [
+      "store"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A1",
+    "topic": "travel",
+    "examples": []
+  },
+  {
+    "id": "ru-000057",
+    "ru": "вокзал",
+    "en": [
+      "train station"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A1",
+    "topic": "travel",
+    "examples": []
+  },
+  {
+    "id": "ru-000058",
+    "ru": "аэропорт",
+    "en": [
+      "airport"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A1",
+    "topic": "travel",
+    "examples": []
+  },
+  {
+    "id": "ru-000059",
+    "ru": "поезд",
+    "en": [
+      "train"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A1",
+    "topic": "travel",
+    "examples": []
+  },
+  {
+    "id": "ru-000060",
+    "ru": "автобус",
+    "en": [
+      "bus"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A1",
+    "topic": "travel",
+    "examples": []
+  },
+  {
+    "id": "ru-000061",
+    "ru": "билет",
+    "en": [
+      "ticket"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A1",
+    "topic": "travel",
+    "examples": []
+  },
+  {
+    "id": "ru-000062",
+    "ru": "такси",
+    "en": [
+      "taxi"
+    ],
+    "partOfSpeech": "noun neuter",
+    "level": "A1",
+    "topic": "travel",
+    "examples": []
+  },
+  {
+    "id": "ru-000063",
+    "ru": "налево",
+    "en": [
+      "to the left"
+    ],
+    "partOfSpeech": "adverb",
+    "level": "A1",
+    "topic": "directions",
+    "examples": []
+  },
+  {
+    "id": "ru-000064",
+    "ru": "направо",
+    "en": [
+      "to the right"
+    ],
+    "partOfSpeech": "adverb",
+    "level": "A1",
+    "topic": "directions",
+    "examples": []
+  },
+  {
+    "id": "ru-000065",
+    "ru": "прямо",
+    "en": [
+      "straight ahead"
+    ],
+    "partOfSpeech": "adverb",
+    "level": "A1",
+    "topic": "directions",
+    "examples": []
+  },
+  {
+    "id": "ru-000066",
+    "ru": "здесь",
+    "en": [
+      "here"
+    ],
+    "partOfSpeech": "adverb",
+    "level": "A1",
+    "topic": "directions",
+    "examples": []
+  },
+  {
+    "id": "ru-000067",
+    "ru": "там",
+    "en": [
+      "there"
+    ],
+    "partOfSpeech": "adverb",
+    "level": "A1",
+    "topic": "directions",
+    "examples": []
+  },
+  {
+    "id": "ru-000068",
+    "ru": "где",
+    "en": [
+      "where"
+    ],
+    "partOfSpeech": "adverb",
+    "level": "A1",
+    "topic": "directions",
+    "examples": []
+  },
+  {
+    "id": "ru-000069",
+    "ru": "когда",
+    "en": [
+      "when"
+    ],
+    "partOfSpeech": "adverb",
+    "level": "A1",
+    "topic": "basics",
+    "examples": []
+  },
+  {
+    "id": "ru-000070",
+    "ru": "почему",
+    "en": [
+      "why"
+    ],
+    "partOfSpeech": "adverb",
+    "level": "A1",
+    "topic": "basics",
+    "examples": []
+  },
+  {
+    "id": "ru-000071",
+    "ru": "быть",
+    "en": [
+      "to be"
+    ],
+    "partOfSpeech": "verb imperfective",
+    "level": "A1",
+    "topic": "verbs",
+    "examples": []
+  },
+  {
+    "id": "ru-000072",
+    "ru": "говорить",
+    "en": [
+      "to speak"
+    ],
+    "partOfSpeech": "verb imperfective",
+    "level": "A1",
+    "topic": "verbs",
+    "examples": []
+  },
+  {
+    "id": "ru-000073",
+    "ru": "понимать",
+    "en": [
+      "to understand"
+    ],
+    "partOfSpeech": "verb imperfective",
+    "level": "A1",
+    "topic": "verbs",
+    "examples": []
+  },
+  {
+    "id": "ru-000074",
+    "ru": "знать",
+    "en": [
+      "to know"
+    ],
+    "partOfSpeech": "verb imperfective",
+    "level": "A1",
+    "topic": "verbs",
+    "examples": []
+  },
+  {
+    "id": "ru-000075",
+    "ru": "хотеть",
+    "en": [
+      "to want"
+    ],
+    "partOfSpeech": "verb imperfective",
+    "level": "A1",
+    "topic": "verbs",
+    "examples": []
+  },
+  {
+    "id": "ru-000076",
+    "ru": "мочь",
+    "en": [
+      "can",
+      "to be able"
+    ],
+    "partOfSpeech": "verb imperfective",
+    "level": "A1",
+    "topic": "verbs",
+    "examples": []
+  },
+  {
+    "id": "ru-000077",
+    "ru": "делать",
+    "en": [
+      "to do",
+      "to make"
+    ],
+    "partOfSpeech": "verb imperfective",
+    "level": "A1",
+    "topic": "verbs",
+    "examples": []
+  },
+  {
+    "id": "ru-000078",
+    "ru": "идти",
+    "en": [
+      "to go (on foot, one direction)"
+    ],
+    "partOfSpeech": "verb imperfective",
+    "level": "A1",
+    "topic": "verbs",
+    "examples": []
+  },
+  {
+    "id": "ru-000079",
+    "ru": "ехать",
+    "en": [
+      "to go (by transport, one direction)"
+    ],
+    "partOfSpeech": "verb imperfective",
+    "level": "A1",
+    "topic": "verbs",
+    "examples": []
+  },
+  {
+    "id": "ru-000080",
+    "ru": "жить",
+    "en": [
+      "to live"
+    ],
+    "partOfSpeech": "verb imperfective",
+    "level": "A1",
+    "topic": "verbs",
+    "examples": []
+  },
+  {
+    "id": "ru-000081",
+    "ru": "работать",
+    "en": [
+      "to work"
+    ],
+    "partOfSpeech": "verb imperfective",
+    "level": "A1",
+    "topic": "verbs",
+    "examples": []
+  },
+  {
+    "id": "ru-000082",
+    "ru": "учиться",
+    "en": [
+      "to study",
+      "to learn"
+    ],
+    "partOfSpeech": "verb imperfective",
+    "level": "A1",
+    "topic": "verbs",
+    "examples": []
+  },
+  {
+    "id": "ru-000083",
+    "ru": "читать",
+    "en": [
+      "to read"
+    ],
+    "partOfSpeech": "verb imperfective",
+    "level": "A1",
+    "topic": "verbs",
+    "examples": []
+  },
+  {
+    "id": "ru-000084",
+    "ru": "писать",
+    "en": [
+      "to write"
+    ],
+    "partOfSpeech": "verb imperfective",
+    "level": "A1",
+    "topic": "verbs",
+    "examples": []
+  },
+  {
+    "id": "ru-000085",
+    "ru": "слушать",
+    "en": [
+      "to listen"
+    ],
+    "partOfSpeech": "verb imperfective",
+    "level": "A1",
+    "topic": "verbs",
+    "examples": []
+  },
+  {
+    "id": "ru-000086",
+    "ru": "смотреть",
+    "en": [
+      "to watch",
+      "to look"
+    ],
+    "partOfSpeech": "verb imperfective",
+    "level": "A1",
+    "topic": "verbs",
+    "examples": []
+  },
+  {
+    "id": "ru-000087",
+    "ru": "есть",
+    "en": [
+      "to eat"
+    ],
+    "partOfSpeech": "verb imperfective",
+    "level": "A1",
+    "topic": "verbs",
+    "examples": []
+  },
+  {
+    "id": "ru-000088",
+    "ru": "пить",
+    "en": [
+      "to drink"
+    ],
+    "partOfSpeech": "verb imperfective",
+    "level": "A1",
+    "topic": "verbs",
+    "examples": []
+  },
+  {
+    "id": "ru-000089",
+    "ru": "любить",
+    "en": [
+      "to love",
+      "to like"
+    ],
+    "partOfSpeech": "verb imperfective",
+    "level": "A1",
+    "topic": "verbs",
+    "examples": []
+  },
+  {
+    "id": "ru-000090",
+    "ru": "покупать",
+    "en": [
+      "to buy"
+    ],
+    "partOfSpeech": "verb imperfective",
+    "level": "A2",
+    "topic": "verbs",
+    "examples": []
+  },
+  {
+    "id": "ru-000091",
+    "ru": "большой",
+    "en": [
+      "big",
+      "large"
+    ],
+    "partOfSpeech": "adjective",
+    "level": "A2",
+    "topic": "descriptions",
+    "examples": []
+  },
+  {
+    "id": "ru-000092",
+    "ru": "маленький",
+    "en": [
+      "small"
+    ],
+    "partOfSpeech": "adjective",
+    "level": "A2",
+    "topic": "descriptions",
+    "examples": []
+  },
+  {
+    "id": "ru-000093",
+    "ru": "хороший",
+    "en": [
+      "good"
+    ],
+    "partOfSpeech": "adjective",
+    "level": "A2",
+    "topic": "descriptions",
+    "examples": []
+  },
+  {
+    "id": "ru-000094",
+    "ru": "плохой",
+    "en": [
+      "bad"
+    ],
+    "partOfSpeech": "adjective",
+    "level": "A2",
+    "topic": "descriptions",
+    "examples": []
+  },
+  {
+    "id": "ru-000095",
+    "ru": "новый",
+    "en": [
+      "new"
+    ],
+    "partOfSpeech": "adjective",
+    "level": "A2",
+    "topic": "descriptions",
+    "examples": []
+  },
+  {
+    "id": "ru-000096",
+    "ru": "старый",
+    "en": [
+      "old"
+    ],
+    "partOfSpeech": "adjective",
+    "level": "A2",
+    "topic": "descriptions",
+    "examples": []
+  },
+  {
+    "id": "ru-000097",
+    "ru": "красивый",
+    "en": [
+      "beautiful"
+    ],
+    "partOfSpeech": "adjective",
+    "level": "A2",
+    "topic": "descriptions",
+    "examples": []
+  },
+  {
+    "id": "ru-000098",
+    "ru": "дорогой",
+    "en": [
+      "expensive",
+      "dear"
+    ],
+    "partOfSpeech": "adjective",
+    "level": "A2",
+    "topic": "descriptions",
+    "examples": []
+  },
+  {
+    "id": "ru-000099",
+    "ru": "дешёвый",
+    "en": [
+      "cheap"
+    ],
+    "partOfSpeech": "adjective",
+    "level": "A2",
+    "topic": "descriptions",
+    "examples": []
+  },
+  {
+    "id": "ru-000100",
+    "ru": "важный",
+    "en": [
+      "important"
+    ],
+    "partOfSpeech": "adjective",
+    "level": "A2",
+    "topic": "descriptions",
+    "examples": []
+  },
+  {
+    "id": "ru-000101",
+    "ru": "сегодня",
+    "en": [
+      "today"
+    ],
+    "partOfSpeech": "adverb",
+    "level": "A2",
+    "topic": "time",
+    "examples": []
+  },
+  {
+    "id": "ru-000102",
+    "ru": "завтра",
+    "en": [
+      "tomorrow"
+    ],
+    "partOfSpeech": "adverb",
+    "level": "A2",
+    "topic": "time",
+    "examples": []
+  },
+  {
+    "id": "ru-000103",
+    "ru": "вчера",
+    "en": [
+      "yesterday"
+    ],
+    "partOfSpeech": "adverb",
+    "level": "A2",
+    "topic": "time",
+    "examples": []
+  },
+  {
+    "id": "ru-000104",
+    "ru": "сейчас",
+    "en": [
+      "now"
+    ],
+    "partOfSpeech": "adverb",
+    "level": "A2",
+    "topic": "time",
+    "examples": []
+  },
+  {
+    "id": "ru-000105",
+    "ru": "утро",
+    "en": [
+      "morning"
+    ],
+    "partOfSpeech": "noun neuter",
+    "level": "A2",
+    "topic": "time",
+    "examples": []
+  },
+  {
+    "id": "ru-000106",
+    "ru": "день",
+    "en": [
+      "day"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A2",
+    "topic": "time",
+    "examples": []
+  },
+  {
+    "id": "ru-000107",
+    "ru": "вечер",
+    "en": [
+      "evening"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A2",
+    "topic": "time",
+    "examples": []
+  },
+  {
+    "id": "ru-000108",
+    "ru": "ночь",
+    "en": [
+      "night"
+    ],
+    "partOfSpeech": "noun feminine",
+    "level": "A2",
+    "topic": "time",
+    "examples": []
+  },
+  {
+    "id": "ru-000109",
+    "ru": "неделя",
+    "en": [
+      "week"
+    ],
+    "partOfSpeech": "noun feminine",
+    "level": "A2",
+    "topic": "time",
+    "examples": []
+  },
+  {
+    "id": "ru-000110",
+    "ru": "год",
+    "en": [
+      "year"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A2",
+    "topic": "time",
+    "examples": []
+  },
+  {
+    "id": "ru-000111",
+    "ru": "один",
+    "en": [
+      "one"
+    ],
+    "partOfSpeech": "number",
+    "level": "A2",
+    "topic": "numbers",
+    "examples": []
+  },
+  {
+    "id": "ru-000112",
+    "ru": "два",
+    "en": [
+      "two"
+    ],
+    "partOfSpeech": "number",
+    "level": "A2",
+    "topic": "numbers",
+    "examples": []
+  },
+  {
+    "id": "ru-000113",
+    "ru": "три",
+    "en": [
+      "three"
+    ],
+    "partOfSpeech": "number",
+    "level": "A2",
+    "topic": "numbers",
+    "examples": []
+  },
+  {
+    "id": "ru-000114",
+    "ru": "четыре",
+    "en": [
+      "four"
+    ],
+    "partOfSpeech": "number",
+    "level": "A2",
+    "topic": "numbers",
+    "examples": []
+  },
+  {
+    "id": "ru-000115",
+    "ru": "пять",
+    "en": [
+      "five"
+    ],
+    "partOfSpeech": "number",
+    "level": "A2",
+    "topic": "numbers",
+    "examples": []
+  },
+  {
+    "id": "ru-000116",
+    "ru": "шесть",
+    "en": [
+      "six"
+    ],
+    "partOfSpeech": "number",
+    "level": "A2",
+    "topic": "numbers",
+    "examples": []
+  },
+  {
+    "id": "ru-000117",
+    "ru": "семь",
+    "en": [
+      "seven"
+    ],
+    "partOfSpeech": "number",
+    "level": "A2",
+    "topic": "numbers",
+    "examples": []
+  },
+  {
+    "id": "ru-000118",
+    "ru": "восемь",
+    "en": [
+      "eight"
+    ],
+    "partOfSpeech": "number",
+    "level": "A2",
+    "topic": "numbers",
+    "examples": []
+  },
+  {
+    "id": "ru-000119",
+    "ru": "девять",
+    "en": [
+      "nine"
+    ],
+    "partOfSpeech": "number",
+    "level": "A2",
+    "topic": "numbers",
+    "examples": []
+  },
+  {
+    "id": "ru-000120",
+    "ru": "десять",
+    "en": [
+      "ten"
+    ],
+    "partOfSpeech": "number",
+    "level": "A2",
+    "topic": "numbers",
+    "examples": []
+  },
+  {
+    "id": "ru-000121",
+    "ru": "закон",
+    "en": [
+      "law"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A2",
+    "topic": "citizenship",
+    "examples": []
+  },
+  {
+    "id": "ru-000122",
+    "ru": "право",
+    "en": [
+      "right",
+      "law"
+    ],
+    "partOfSpeech": "noun neuter",
+    "level": "A2",
+    "topic": "citizenship",
+    "examples": []
+  },
+  {
+    "id": "ru-000123",
+    "ru": "гражданин",
+    "en": [
+      "citizen (male)"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A2",
+    "topic": "citizenship",
+    "examples": []
+  },
+  {
+    "id": "ru-000124",
+    "ru": "гражданка",
+    "en": [
+      "citizen (female)"
+    ],
+    "partOfSpeech": "noun feminine",
+    "level": "A2",
+    "topic": "citizenship",
+    "examples": []
+  },
+  {
+    "id": "ru-000125",
+    "ru": "гражданство",
+    "en": [
+      "citizenship"
+    ],
+    "partOfSpeech": "noun neuter",
+    "level": "A2",
+    "topic": "citizenship",
+    "examples": []
+  },
+  {
+    "id": "ru-000126",
+    "ru": "государство",
+    "en": [
+      "state",
+      "government"
+    ],
+    "partOfSpeech": "noun neuter",
+    "level": "A2",
+    "topic": "citizenship",
+    "examples": []
+  },
+  {
+    "id": "ru-000127",
+    "ru": "конституция",
+    "en": [
+      "constitution"
+    ],
+    "partOfSpeech": "noun feminine",
+    "level": "A2",
+    "topic": "citizenship",
+    "examples": []
+  },
+  {
+    "id": "ru-000128",
+    "ru": "история",
+    "en": [
+      "history"
+    ],
+    "partOfSpeech": "noun feminine",
+    "level": "A2",
+    "topic": "history",
+    "examples": []
+  },
+  {
+    "id": "ru-000129",
+    "ru": "народ",
+    "en": [
+      "people",
+      "nation"
+    ],
+    "partOfSpeech": "noun masculine",
+    "level": "A2",
+    "topic": "history",
+    "examples": []
+  },
+  {
+    "id": "ru-000130",
+    "ru": "культура",
+    "en": [
+      "culture"
+    ],
+    "partOfSpeech": "noun feminine",
+    "level": "A2",
+    "topic": "history",
+    "examples": []
+  }
+]
