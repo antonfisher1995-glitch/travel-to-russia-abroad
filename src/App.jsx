@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { BookOpen, Languages, Headphones, PenLine, Shuffle, Volume2, Search, RotateCcw, Check, X, Download, Upload, Menu, House, History, GraduationCap, ChevronLeft, ChevronRight } from 'lucide-react';
+import { BookOpen, Languages, Headphones, PenLine, Shuffle, Volume2, Search, RotateCcw, Check, Download, Upload, Menu, House, History, GraduationCap, ChevronLeft, ChevronRight } from 'lucide-react';
 import vocabulary from './data/vocabulary.json';
 
 const STORE = 'russia-abroad-progress-v1';
@@ -39,7 +39,7 @@ export default function App() {
   const [writing,setWriting] = useState('');
   const [menuOpen,setMenuOpen] = useState(false);
 
-  // Pagination states for handling thousands of vocabulary entries smoothly
+  // Pagination states for thousands of entries
   const [vocabPage, setVocabPage] = useState(1);
   const itemsPerPage = 50;
 
@@ -50,7 +50,7 @@ export default function App() {
     (normalize(w.ru).includes(normalize(query)) || w.en.join(' ').toLowerCase().includes(query.toLowerCase()))
   ),[query,topic]);
 
-  // Reset pagination and flashcard index when search query or topic changes
+  // Reset pagination and flashcard index when search or topic changes
   useEffect(() => {
     setVocabPage(1);
     setIndex(0);
@@ -206,7 +206,7 @@ export default function App() {
 
       {page==='Citizenship' && <section className="page"><div className="notice"><strong>Citizenship exam study area</strong><p>This is a structured placeholder for a verified, updatable exam-preparation course. It is not an official exam or legal advice. Confirm current requirements with an authorized Russian examination center.</p></div><div className="course-grid">{[['Russian language','Vocabulary, grammar, reading, listening, writing, and speaking.'],['Russian history','Chronology, key events, people, and practice questions.'],['Fundamentals of law','Constitutional concepts, citizenship, rights, and responsibilities.']].map(([t,d])=><article className="course-card" key={t}><span className="course-icon"><GraduationCap/></span><h3>{t}</h3><p>{d}</p><span className="tag">Course pack planned</span></article>)}</div></section>}
       {page==='History & Law' && <section className="page"><div className="notice"><strong>History and law curriculum</strong><p>Course content is designed to be loaded from reviewed lesson packs rather than hard-coded into the app.</p></div><div className="timeline">{['Early Slavic peoples and Kievan Rus','Moscow and the formation of the Russian state','The Russian Empire and major reforms','The 1917 Revolution and Soviet period','World War II and postwar history','The dissolution of the USSR and contemporary history','Constitutional structure and citizenship fundamentals'].map((t,i)=><div className="timeline-item" key={t}><span>{String(i+1).padStart(2,'0')}</span><div><h3>{t}</h3><p>Lesson reading, key terms, knowledge check, and review questions will be included in this unit.</p></div></div>)}</div></section>}
-      {page==='Progress' && <section className="page"><div className="stats"><Stat label="Marked known" value={saved.known.length} note={`of ${vocabulary.length.toLocaleString()} total entries`} icon={<Check/>}/><Stat label="Answered" value={(saved.history||[]).length} note="Practice events saved" icon={<BookOpen/>}/><Stat label="Correct" value={(saved.history||[]).filter(x=>x.correct).length} note="Recorded correct answers" icon={<Check/>}/><Stat label="Needs review" value={Object.values(saved.reviews||{}).filter(x=>x.incorrect>x.correct).length} note="Words with more misses" icon={<RotateCcw/>}/></div><div className="progress-panel"><h2>Backup and restore</h2><p>Progress is stored in this browser on this device. Export a backup before clearing browser data.</p><div className="button-row"><button className="primary-btn" onClick={exportProgress}><Download size={16}/> Export progress</button><label className="outline-btn upload-btn"><Upload size={16}/> Import backup<input type="file" accept="application/json" onChange={importProgress}/></label><button className="danger-btn" onClick={()=>{if(confirm('Clear all local progress? Export a backup first if you want to keep it.'))setSaved({known:[],reviews:{},history:[]});}}>Reset progress</button></div></div></section>}
+      {page==='Progress' && <section className="page"><div className="stats"><Stat label="Marked known" value={saved.known.length} note={`of ${vocabulary.length.toLocaleString()} total entries`} icon={<Check/>}/><Stat label="Answered" value={(saved.history||[]).length} note="Practice events saved" icon={<BookOpen/>}/><Stat label="Correct" value={(saved.history||[]).filter(x=>x.correct).length} note="Recorded correct answers" icon={<Check/>}/><Stat label="Needs review" value={Object.values(saved.reviews||{}).filter(x=>x.incorrect>x.correct).length} note="Words with more misses" icon={<RotateCcw/>}/></div><div className="progress-panel"><h2>Backup and restore</h2><p>Progress is stored in this browser on this device. Export a backup before clearing browser data.</p><div className="button-row"><button className="primary-btn" onClick={exportProgress}><Download size={16}/> Export progress</button><label className="outline-btn upload-btn"><Upload size={16}/> Import backup<input type="file" accept="application/json" onChange={importProgress}/></label><button className="danger-btn" onClick={()=>{if(confirm('Clear all local progress? Export a backup first if you want to keep it.'))setSaved({known:[],reviews:[],history:[]});}}>Reset progress</button></div></div></section>}
       <footer className="footer">Travel to Russia Abroad <span>·</span> Learning progress stays in this browser <span>·</span> Starter edition</footer>
     </main>
   </div>;
